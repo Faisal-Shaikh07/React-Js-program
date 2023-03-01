@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:lightyellow ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.layout{
+    margin: 0 4rem;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top:0px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 18px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.intro{
+    float: left;
+}
+.menu{
+    float: right;
+}
+
+.menu ul li a:hover{
+    color:black;
+    cursor: pointer;
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+}
+
+.f-w-1{
+    font-weight: 400;
+}
+
+.f-w-2{
+    font-size: 60px;
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color: green;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0 5px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    color:black;
+    cursor: pointer;
+}
+
+.btn2
+{
+    width: 180px;
+}
+
+
+.text-2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.text-1 {
+    margin: 20px 0;
+}
+
+
+.disp-1{
+    display: inline-block;
+}
+
+.content{
+    margin-top: 150px;
+}
+
+.pic-1{
+    width: 42%;
+    margin-top: 150px;
+    padding-right:150px;
+    float: right;
+    
+}
+
+.pic-2{
+    width: 42%;
+    margin-top: 200px;
+    padding-left:0px;
+    float: left;
+}
+
+.about-me{
+    margin-left: 100px;
+}
+
+.services-web-icon{
+    font-size: 100px !important;
+}
+
+.services{
+    text-align: center;
+}
+
+.single-service {
+    display: inline-block;
+    margin-top: 60px;
+    padding: 0 2px;
+}
+
+.features {
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.desc-p{
+    max-width: 328px;
+} 
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.section3 {
+    background-color: #1299f385;
+    padding:25px 0;
+    color: #fff;
+    text-align: center; 
+}
+
+.fact{
+    display: inline-block;
+    padding: 0 100px;
+    font-size: 20px;
+}
+
+.single-fact {
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color:black;
+    color:white;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

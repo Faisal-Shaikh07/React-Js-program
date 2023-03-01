@@ -1,0 +1,218 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container {
+
+    margin: 0 5rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background: white;
+    border-bottom: solid 1px #dedede;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color: green;
+    border: 0.5px solid black;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+.btn:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.div-h3-New {
+    background: #2B7DDD;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 12px;
+    width: 18rem;
+    text-align: center;
+}
+
+.div-h1-Turn {
+    background: linear-gradient(90deg, #2B7DDD 3.58%, #45CDD6 50.39%, #46B314 98.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 3rem;
+}
+
+.desc {
+    font-size: 28px;
+    line-height: 43px;
+    width: 85%;
+}
+
+.mrgn1 {
+    margin-top: 70px;
+}
+
+.container-1 {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container-1 h3 {
+    font-size: 25px;
+    line-height: 25px;
+    padding: 10px;
+}
+
+.input-name {
+    width: 100%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.text-name {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    font-size: 16px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.passion-section {
+    background-color: #2B7DDD;
+    padding: 25px 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+.passion-heading {
+    font-weight: 600;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.passion-para {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.passion-ratings {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rating {
+    text-align: center;
+    line-height: 25px;
+}
+
+.founders-wrapper {
+    position: absolute;
+    width: 100%;
+    bottom: -15%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.img-wrapper {
+    max-width: 100px;
+    padding: 0.5rem;
+    border: 1.5px solid #2B7DDD;
+    border-radius: 50%;
+}
+
+.img-wrapper img {
+    width: 100%;
+}
+
+.training {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.react-img {
+    vertical-align: bottom;
+    width: 10%;
+}
+
+.blue-txt {
+    color: #2B7DDD;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.black-txt {
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.btn-2 {
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color: green;
+    border: 0.5px solid black;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+.btn-2:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.presentation {
+    width: 80%;
+}
+
+@media screen and (max-width: 500px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        margin: 0 0;
+    }
+
+    .div-h3-New {
+        margin-top: 30px;
+    }
+
+    .training {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+}
