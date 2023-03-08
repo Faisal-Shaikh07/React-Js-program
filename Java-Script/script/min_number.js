@@ -6,4 +6,4 @@ for(i=1;i<=number.length-1;i++){
       num = number[i];
     }
 }
-console.log("The minimum number is" + num);
+console.log(' The minimum number is '  + num);
