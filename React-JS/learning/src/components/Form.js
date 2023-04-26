@@ -61,7 +61,7 @@ class Form extends Component {
                         {/* <label for="">Phone number</label> */}
                         <input type="number" name="" placeholder='Enter Mobile number' onChange={(e) => this.handleForm('phone', e.target.value)} />
                         {/* <label for="">Password</label> */}
-                        <input type="text" name="" placeholder='Enter Password' onChange={(e) => this.handleForm('password', e.target.value)} />
+                        <input type="password" name="" placeholder='Enter Password' onChange={(e) => this.handleForm('password', e.target.value)} />
                         <input type="submit" value="Sign up" />
                     </form>
                 </div>

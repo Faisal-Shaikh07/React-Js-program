@@ -6,7 +6,10 @@ import React from 'react';
 // import Footer from './components/Footer';
 // import Counter from './components/Counter';
 // import Toggle from './components/Toggle';
-import Form from './components/Form';
+ import Form from './components/Form';
+// import About from './components/About';
+// import Home from './components/Home';
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 function App() {
@@ -16,9 +19,21 @@ function App() {
       <Description/>
       <Stat/>
       <Footer/> */}
+      <Form/>
       {/* <Counter/> */}
       {/* <Toggle/> */}
-      <Form/>
+      {/* <Router>
+
+        <Link to="">Home </Link>
+        <Link to="/about"> About</Link>
+        <Link to="/form"> Form</Link>
+
+        <Route exact path="/"Component={Home}/>
+        <Route path="/about"Component={About}/>
+        <Route path="/form"Component={Form}/>
+      
+      </Router> */}
+      
     </div>
   );
 }
